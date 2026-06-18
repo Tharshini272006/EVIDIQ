@@ -1,0 +1,17 @@
+Looking for AI Engineer.
+
+Requirements:
+
+Python
+
+Machine Learning
+
+FastAPI
+
+RAG
+
+LLM
+
+Deployment
+
+Vector Database
