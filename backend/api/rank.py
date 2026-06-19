@@ -1,33 +1,15 @@
-from fastapi import APIRouter
-from backend.services.parser.resume_parser import parse_resume
-from backend.services.embeddings.generate_embeddings import embed
-from backend.services.scoring.candidate_score import similarity
+from fastapi import APIRouter, Query
+
+from backend.services.ranking.rank_engine import rank_candidates
 
 router = APIRouter()
 
 
 @router.get("/rank")
+def rank(top_k: int | None = Query(default=None, ge=1, le=100)):
+    return rank_candidates(top_k=top_k)
 
-def rank():
 
-    resume = parse_resume(
-        r"data/resumes/THARSHINI.resume (2).pdf"
-    )
-
-    with open(r"data/jobs/job.txt",
-encoding="utf-8" ) as f:
-
-     job = f.read()
-
-    resume_vec = embed(resume)
-
-    job_vec = embed(job)
-
-    score = similarity(
-        resume_vec,
-        job_vec
-    )
-
-    return {
-        "score": float(score)
-    }
+@router.get("/rank/top")
+def top_candidates(limit: int = Query(default=5, ge=1, le=25)):
+    return rank_candidates(top_k=limit)
