@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from backend.api.upload import router as upload_router
 from backend.api.rank import router as rank_router
+from backend.api.challenge import router as challenge_router
 
 app = FastAPI(title="EVIDIQ API")
 
@@ -15,6 +16,7 @@ app.add_middleware(
 
 app.include_router(upload_router)
 app.include_router(rank_router)
+app.include_router(challenge_router)
 
 @app.get("/")
 def home():

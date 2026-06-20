@@ -1,23 +1,68 @@
-Name: Alex Kumar
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/Contents 7 0 R /MediaBox [ 0 0 612 792 ] /Parent 6 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-Role:
-AI Engineer
+>> 
+  /Type /Page
+>>
+endobj
+4 0 obj
+<<
+/PageMode /UseNone /Pages 6 0 R /Type /Catalog
+>>
+endobj
+5 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20260620175838+05'00') /Creator (anonymous) /Keywords () /ModDate (D:20260620175838+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+6 0 obj
+<<
+/Count 1 /Kids [ 3 0 R ] /Type /Pages
+>>
+endobj
+7 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 574
+>>
+stream
+Gas2F_/A!]&4H!_ME/,!P$2_NTYAC%'*NFbf@CJ6agJK1[1npk'E<KSaR(GHK`HZE^7?.-QsbO:m;sp6X75er7/7;B(?OYs-)q.2e_.#b%[FPmi;.2?Wl:mneFF;4JR@rJDok2<H:ISh*PqJIY_lj#4CYJ$..[a63@`TA#pE$J4QIi(JU:#bB),QeM-M:J=>6/#ecf)5%gDBqgT_Jqs&g%<*i`nV.Bjqs+,men6f*lr,B*S8YmIJk.;$8HN5R;^(5Kh=Y!EjPDkj^2CjXPJSOMGJ/5_Oh[Td_f+(MHDbT6.4`/[!>Sb8.MedPF`LFb'o;ee4Qbi;-4"(M]$=^":8d7!:6KOZr@A'?nd=i,pKNn&cCW=N5)J"n7*9?JTN5-ma?Us*[:!BKka[.qitV^^c3>p*"u"NE$m(JgI(,2E^4p"P,_dr<DuRYCsu_!Qli(TgKLNaLbE%p@2W*g0]Hl<D8U:SF[+D=lb\DT*-Xc8Usl,@ap@UuNT?+%*41p$[5t6^L`q/h2#RDI_GoR13s+(0:Os^jFK<(OJgQ&o@kNr*Cp?lLD6+00l'+"X_t1>l~>endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000061 00000 n 
+0000000092 00000 n 
+0000000199 00000 n 
+0000000392 00000 n 
+0000000460 00000 n 
+0000000721 00000 n 
+0000000780 00000 n 
+trailer
+<<
+/ID 
+[<06587de235ce260106920cb3ef810cdf><06587de235ce260106920cb3ef810cdf>]
+% ReportLab generated PDF document -- digest (opensource)
 
-Skills:
-Python
-FastAPI
-Machine Learning
-RAG
-Docker
-SQL
-
-Experience:
-Built semantic search platform
-Developed recruitment analytics dashboard
-
-Projects:
-Explainable Candidate Ranking System
-Multi-agent Resume Evaluator
-
-Education:
-B.Tech Computer Science
+/Info 5 0 R
+/Root 4 0 R
+/Size 8
+>>
+startxref
+1444
+%%EOF
